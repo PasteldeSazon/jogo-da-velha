@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tabuleiro {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+}
+.celula {
+  display: flex;
+  background-color: rgba(179, 167, 104, 0.904);
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 46px;
+  cursor: pointer;
+}
+
+#botaoReiniciar {
+  margin-top: 20px;
+  padding: 15px;
+}
